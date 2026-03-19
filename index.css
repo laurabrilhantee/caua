@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+/* Main centralizado com flexbox */
+main {
+    width: 100%;
+    height: 100vh;
+    background: #860dcb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+#logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px; /* opcional */
+    /* margin-left: 50%; */
+}
+
+/* Título */
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Input fields */
+input {
+    width: 80%;
+    max-width: 400px;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+    font-size: 1rem;
+}
+
+/* Foco no input */
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #479fdf;
+}
+
+/* Esqueceu a senha */
+#sen {
+    color: #fff;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Botão */
+button {
+    width: 80%;
+    max-width: 400px;
+    height: 50px;
+    background: #479fdf;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Hover no botão */
+button:hover {
+    background: #367ac3;
+}
